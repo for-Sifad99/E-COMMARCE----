@@ -53,7 +53,7 @@ export default function StoreAddProduct() {
                 Description
                 <textarea name="description" onChange={onChangeHandler} value={productInfo.description} placeholder="Enter product description" rows={5} className="w-full max-w-sm p-2 px-4 outline-none border border-slate-200 rounded resize-none" required />
             </label>
-
+ 
             <div className="flex gap-5">
                 <label htmlFor="" className="flex flex-col gap-2 ">
                     Actual Price ($)
